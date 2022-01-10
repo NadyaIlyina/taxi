@@ -1,0 +1,22 @@
+db.orders.insertMany(
+{
+	client: {"name": "Alice", "phone": "+375291234567"}, 
+	driver: {"name": "Tom", "phone": "+375291237865", "DL": 123},
+	auto:{"number":12,"color": "black", "model": "Renault Logan", "type": "econom"},
+	route:{"from":"Фрунзе 32", "to": "Московский 33а", "length":4},
+	"cost": 5,
+	"date": "2022.01.12",
+	"status": "done",
+	"review": "dsuvhidjos"
+},
+
+{
+	client: {"name": "Ann", "phone": "+375291765567"}, 
+	driver: {"name": "Tom", "phone": "+375291237865", "DL": 123},
+	auto:{"number":12,"color": "black", "model": "Renault Logan", "type": "econom"},
+	route:{"from":"Фрунзе 12", "to": "Московский 33а", "length":7},
+	"cost": 8,
+	"date": "2022.01.15",
+	"status": "canceled",
+	"review": ""
+})
